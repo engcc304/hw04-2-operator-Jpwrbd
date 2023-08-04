@@ -4,6 +4,7 @@
 #include <stdio.h> // Fixed typo in the header
 int main() {
     int a = 0, b = 0;
+    char b;
     printf("Please enter values (a b): ");
     scanf("%d %d", &a, &b); // #11 Input variable 'a' and 'b' using & operator for getting their addresses
     printf("a = %d , b = %d \n" , a, b);
