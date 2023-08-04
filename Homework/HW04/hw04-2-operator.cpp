@@ -3,10 +3,10 @@
 */
 #include <stdio.h> // Fixed typo in the header
 int main() {
-    int a = 0, b = 0;
+    int a = 0, b =0;
     printf("Please enter values (a b): ");
     scanf("%d %d", &a, &b); // #11 Input variable 'a' and 'b' using & operator for getting their addresses
-    printf("a = %d , b = %d \n", a, b);
+    printf("a = %d , b = %d \n" , a, b);
     printf("a + b = %d \n", a + b); 
     printf("a - b = %d \n", a - b); 
     printf("a * b = %d \n", a * b); 
@@ -23,6 +23,7 @@ int main() {
     printf("a %= 1 %d \n", a %= 1); 
     printf("a %= b %d \n", a %= b); 
     printf("a && b %d \n", a && b); 
+    //123
     printf("a || b %d \n", a || b); 
     return 0;
 }
